@@ -1,0 +1,37 @@
+img{
+  height: 150px;
+  width: 150px;
+}
+/* .cd1,.cd2,.cd3,.cd4,.cd5,.cd6 */
+div div
+{
+  border: 2px solid black;
+  width: 150px;
+  background-color:aliceblue;
+}
+.bt{
+  background-color:#edc405;
+  border-radius: 2px 2px;
+}
+.container{
+  display: grid;
+  grid-template-columns: auto auto auto ;
+  gap: 10px;
+  justify-content: space-evenly;
+  background-color: rgb(108, 143, 131);
+}
+@media screen and (max-width:768px) {
+  .container{
+    display: grid;
+    grid-template-columns: auto auto ;
+    gap: 10px;
+    justify-content: space-evenly;
+    background-color: #edc405;
+  }
+  
+}
+#icon{
+  display: flex;
+  justify-content: end;
+  color: black;
+}

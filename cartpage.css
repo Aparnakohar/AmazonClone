@@ -1,0 +1,15 @@
+/* tr{
+  display: flex;
+  justify-content: space-evenly;
+  height: 100%;
+  width: 1000px;
+  justify-content: start;
+} */
+ button{
+  background-color:#edc405;
+  /* display: flex; */
+ }
+ body{
+  display: flex;
+  justify-content: space-between;
+ }

@@ -1,0 +1,10 @@
+button{
+  background-color:#edc405;
+}
+body{
+  border: solid 2px black;
+  width: 200px;
+  height: 350px;
+  padding-top: 10px;
+  padding-left: 5px;
+}
